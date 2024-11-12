@@ -547,3 +547,35 @@ span {
     width: 50%;
 }
 
+
+/* Button Styling */
+.button-box {
+    display: flex;
+    justify-content: space-between;
+}
+
+.button-box button {
+    background-color: #6245ff;
+    color: white;
+    font-size: 16px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    width: 100%;
+}
+
+.button-box button:hover {
+    background-color: #45a049;
+    transform: scale(1.08);
+}
+
+.button-box button a {
+    color: white;
+    text-decoration: none;
+}
+
+.button-box button a:hover {
+    text-decoration: underline;
+}

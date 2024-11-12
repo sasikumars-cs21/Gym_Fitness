@@ -347,3 +347,24 @@
     }
 
 }
+
+
+
+
+
+/* Responsive Design: Adjust Layout for Smaller Screens */
+@media (max-width: 600px) {
+    section {
+        width: 90%;
+        padding: 20px;
+    }
+
+    .button-box button {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+
+    .button-box {
+        flex-direction: column;
+    }
+}
